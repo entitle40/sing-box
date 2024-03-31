@@ -1,9 +1,9 @@
 name: Build Docker Images
 
 on:
-  release:
-    types:
-      - released
+  push:
+    branches:
+      - stable-next
 
 jobs:
   build:

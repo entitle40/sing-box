@@ -1,9 +1,9 @@
 name: Release to Linux repository
 
 on:
-  release:
-    types:
-      - published
+  push:
+    branches:
+      - stable-next
 
 jobs:
   build:
